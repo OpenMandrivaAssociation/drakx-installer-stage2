@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 10.4.129
+%define version 10.4.137
 %define release %mkrel 1
 
 %define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
@@ -22,7 +22,7 @@ BuildRequires: drakx-net >= 0.11
 BuildRequires: drakx-kbd-mouse-x11 >= 0.14
 # progs
 BuildRequires: e2fsprogs dosfstools 
-BuildRequires: task-x11 x11-server-xnest libx11-devel libxxf86misc-devel x11-driver-video-fbdev
+BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev
 BuildRequires: setserial pciutils mt-st reiserfsprogs jfsprogs
 BuildRequires: xfsprogs pcmcia-cs gettext ash linuxwacom
 BuildRequires: fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-gurmukhi fonts-ttf-thai fonts-ttf-devanagari
