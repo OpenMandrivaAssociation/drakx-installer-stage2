@@ -15,7 +15,7 @@ Url: http://wiki.mandriva.com/Tools/DrakX
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: squashfs-tools
-BuildRequires: librpm4.4 >= 4.4.8-6mdv2008.0
+BuildRequires: librpm >= 4.4.8-6mdv2008.0
 BuildRequires: libx11-devel perl-devel libldetect-devel drakx-installer-binaries
 BuildRequires: perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
 BuildRequires: perl-Locale-gettext packdrake
