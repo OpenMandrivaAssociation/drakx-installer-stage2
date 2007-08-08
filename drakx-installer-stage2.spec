@@ -20,7 +20,7 @@ BuildRequires: libx11-devel perl-devel libldetect-devel drakx-installer-binaries
 BuildRequires: perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
 BuildRequires: perl-Locale-gettext packdrake
 BuildRequires: drakx-net >= 0.11
-BuildRequires: drakx-kbd-mouse-x11 >= 0.20
+BuildRequires: drakx-kbd-mouse-x11 >= 0.21
 BuildRequires: rpm-mandriva-setup >= 1.48
 # progs
 BuildRequires: e2fsprogs dosfstools 
