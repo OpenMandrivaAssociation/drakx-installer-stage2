@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 10.4.165
+%define version 10.4.168
 %define release %mkrel 1
 
 %define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
@@ -23,6 +23,7 @@ BuildRequires: drakx-net >= 0.11
 BuildRequires: drakx-kbd-mouse-x11 >= 0.21
 BuildRequires: rpm-mandriva-setup >= 1.48
 BuildRequires: perl-MDK-Common >= 1.2.7
+BuildRequires: urpmi >= 4.10.1
 # progs
 BuildRequires: e2fsprogs dosfstools 
 BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev
