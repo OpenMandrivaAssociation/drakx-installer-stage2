@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 10.4.173
+%define version 10.4.174
 %define release %mkrel 1
 
 %define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
