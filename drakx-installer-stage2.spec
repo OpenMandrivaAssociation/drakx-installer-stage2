@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 10.4.195
+%define version 10.4.196
 %define release %mkrel 1
 
 %define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
@@ -24,6 +24,7 @@ BuildRequires: drakx-kbd-mouse-x11 >= 0.21
 BuildRequires: rpm-mandriva-setup >= 1.48
 BuildRequires: perl-MDK-Common >= 1.2.7
 BuildRequires: urpmi >= 4.10.1
+BuildRequires: perl-URPM >= 2.01
 BuildRequires: meta-task
 # progs
 BuildRequires: e2fsprogs dosfstools 
@@ -32,7 +33,7 @@ BuildRequires: setserial pciutils mt-st reiserfsprogs jfsprogs
 BuildRequires: xfsprogs pcmcia-cs gettext ash linuxwacom
 BuildRequires: fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-gurmukhi fonts-ttf-thai fonts-ttf-devanagari
 BuildRequires: fb2png ntfsprogs ia_ora-gnome brltty
-BuildRequires: lvm2 perl-URPM glibc-i18ndata
+BuildRequires: lvm2 glibc-i18ndata
 BuildRequires: dmraid mdadm quota
 BuildRequires: losetup xmodmap xset monitor-edid locales
 BuildRequires: perl-Gtk2-Html2 mandriva-doc-installer-help
