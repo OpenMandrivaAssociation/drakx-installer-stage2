@@ -37,6 +37,7 @@ BuildRequires: lvm2 glibc-i18ndata
 BuildRequires: dmraid mdadm quota
 BuildRequires: losetup xmodmap xset monitor-edid locales
 BuildRequires: perl-Gtk2-Html2 mandriva-doc-installer-help
+BuildRequires: nfs-utils-clients
 
 #- require the version used during build
 Requires: ldetect-lst = %ldetect_lst_version
