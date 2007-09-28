@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 10.4.218
+%define version 10.4.219
 %define release %mkrel 1
 
 %define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
@@ -15,7 +15,7 @@ Url: http://wiki.mandriva.com/Tools/DrakX
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: squashfs-tools
-BuildRequires: librpm >= 4.4.8-6mdv2008.0
+BuildRequires: librpm >= 4.4.8-21mdv2008.0
 BuildRequires: libx11-devel perl-devel libldetect-devel drakx-installer-binaries
 BuildRequires: perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
 BuildRequires: perl-Locale-gettext packdrake
