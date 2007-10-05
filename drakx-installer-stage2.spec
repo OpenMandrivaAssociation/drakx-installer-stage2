@@ -1,8 +1,8 @@
 %define name drakx-installer-stage2
 %define version 10.4.236
-%define release %mkrel 1
+%define release %mkrel 2
 
-%define ldetect_lst_version %(rpm -q --queryformat '%{VERSION}-%{RELEASE}' ldetect-lst)
+%define ldetect_lst_version 0.1.199-2mdv2008.0
 
 Summary: DrakX installer stage2 image
 Name: %{name}
@@ -26,6 +26,7 @@ BuildRequires: perl-MDK-Common >= 1.2.7
 BuildRequires: urpmi >= 4.10.1
 BuildRequires: perl-URPM >= 2.07
 BuildRequires: meta-task
+BuildRequires: ldetect-lst = %ldetect_lst_version
 # progs
 BuildRequires: e2fsprogs dosfstools 
 BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev
