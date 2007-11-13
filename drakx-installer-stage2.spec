@@ -1,8 +1,8 @@
 %define name drakx-installer-stage2
-%define version 10.4.238
-%define release %mkrel 2
+%define version 10.5.4
+%define release %mkrel 1
 
-%define ldetect_lst_version 0.1.199-2mdv2008.0
+%define ldetect_lst_version 0.1.201-1mdv2008.1
 
 Summary: DrakX installer stage2 image
 Name: %{name}
