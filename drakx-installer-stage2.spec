@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 10.5.4
+%define version 10.5.5
 %define release %mkrel 1
 
 %define ldetect_lst_version 0.1.201-1mdv2008.1
