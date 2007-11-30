@@ -2,8 +2,6 @@
 %define version 10.5.5
 %define release %mkrel 1
 
-%define ldetect_lst_version 0.1.201-1mdv2008.1
-
 Summary: DrakX installer stage2 image
 Name: %{name}
 Version: %{version}
@@ -26,7 +24,7 @@ BuildRequires: perl-MDK-Common >= 1.2.7
 BuildRequires: urpmi >= 4.10.1
 BuildRequires: perl-URPM >= 2.07
 BuildRequires: meta-task
-BuildRequires: ldetect-lst = %ldetect_lst_version
+BuildRequires: ldetect-lst >= 0.1.202-1mdv2008.1
 # progs
 BuildRequires: e2fsprogs dosfstools 
 BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev
@@ -39,9 +37,6 @@ BuildRequires: dmraid mdadm quota
 BuildRequires: losetup xmodmap xset monitor-edid locales
 BuildRequires: perl-Gtk2-Html2 mandriva-doc-installer-help
 BuildRequires: nfs-utils-clients
-
-#- require the version used during build
-Requires: ldetect-lst = %ldetect_lst_version
 
 %description
 This is the stage2 image for Mandriva DrakX installer.
