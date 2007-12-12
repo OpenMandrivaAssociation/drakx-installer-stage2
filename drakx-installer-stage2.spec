@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 10.5.6
+%define version 10.6.1
 %define release %mkrel 1
 
 Summary: DrakX installer stage2 image
@@ -22,7 +22,7 @@ BuildRequires: drakx-kbd-mouse-x11 >= 0.37
 BuildRequires: rpm-mandriva-setup >= 1.48
 BuildRequires: perl-MDK-Common >= 1.2.7
 BuildRequires: urpmi >= 4.10.1
-BuildRequires: perl-URPM >= 2.07
+BuildRequires: perl-URPM >= 3.01
 BuildRequires: meta-task
 BuildRequires: ldetect-lst >= 0.1.202-1mdv2008.1
 # progs
