@@ -10,7 +10,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPLv2+
 Group: Development/Other
 Url: http://wiki.mandriva.com/Tools/DrakX
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: squashfs-tools
 BuildRequires: librpm >= 4.4.8-21mdv2008.0
