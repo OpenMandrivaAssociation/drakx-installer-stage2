@@ -25,7 +25,8 @@ BuildRequires: perl-URPM >= 3.01
 BuildRequires: meta-task
 BuildRequires: ldetect-lst >= 0.1.202-1mdv2008.1
 # progs
-BuildRequires: e2fsprogs dosfstools 
+BuildRequires: e2fsprogs >= 1.40.4-4mdv2008.1
+BuildRequires: dosfstools 
 BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev
 BuildRequires: setserial pciutils mt-st reiserfsprogs jfsprogs
 BuildRequires: xfsprogs pcmcia-cs gettext ash linuxwacom
