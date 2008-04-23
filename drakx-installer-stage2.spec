@@ -23,7 +23,7 @@ BuildRequires: perl-MDK-Common >= 1.2.7
 BuildRequires: urpmi >= 4.10.1
 BuildRequires: perl-URPM >= 3.01
 BuildRequires: meta-task
-BuildRequires: ldetect-lst >= 0.1.202-1mdv2008.1
+BuildRequires: ldetect-lst >= 0.1.222
 BuildRequires: draksnapshot
 # progs
 BuildRequires: e2fsprogs >= 1.40.4-4mdv2008.1
