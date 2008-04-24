@@ -19,7 +19,7 @@ BuildRequires: perl-Locale-gettext packdrake
 BuildRequires: drakx-net >= 0.32
 BuildRequires: drakx-kbd-mouse-x11 >= 0.49
 BuildRequires: rpm-mandriva-setup >= 1.48
-BuildRequires: perl-MDK-Common >= 1.2.7
+BuildRequires: perl-MDK-Common >= 1.2.12
 BuildRequires: urpmi >= 4.10.1
 BuildRequires: perl-URPM >= 3.01
 BuildRequires: meta-task
