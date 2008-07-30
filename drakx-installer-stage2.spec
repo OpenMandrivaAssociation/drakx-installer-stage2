@@ -26,7 +26,7 @@ BuildRequires: meta-task
 BuildRequires: ldetect-lst >= 0.1.222
 BuildRequires: draksnapshot
 # progs
-BuildRequires: matchbox-window-manager
+BuildRequires: drakx-installer-matchbox
 BuildRequires: e2fsprogs >= 1.40.4-4mdv2008.1
 BuildRequires: dosfstools 
 BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev
