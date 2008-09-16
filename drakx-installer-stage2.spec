@@ -1,6 +1,6 @@
 %define name drakx-installer-stage2
 %define version 11.45
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: DrakX installer stage2 image
 Name: %{name}
@@ -37,7 +37,7 @@ BuildRequires: fb2png ntfsprogs ia_ora-gnome brltty
 BuildRequires: lvm2 glibc-i18ndata
 BuildRequires: dmraid mdadm quota
 BuildRequires: losetup xmodmap xset monitor-edid locales
-BuildRequires: perl-Gtk2-Html2 mandriva-doc-installer-help
+BuildRequires: perl-Gtk2-WekKit mandriva-doc-installer-help
 BuildRequires: nfs-utils-clients
 
 %description
