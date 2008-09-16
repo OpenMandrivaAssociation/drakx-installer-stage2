@@ -37,7 +37,7 @@ BuildRequires: fb2png ntfsprogs ia_ora-gnome brltty
 BuildRequires: lvm2 glibc-i18ndata
 BuildRequires: dmraid mdadm quota
 BuildRequires: losetup xmodmap xset monitor-edid locales
-BuildRequires: perl-Gtk2-WekKit mandriva-doc-installer-help
+BuildRequires: perl-Gtk2-WebKit mandriva-doc-installer-help
 BuildRequires: nfs-utils-clients
 
 %description
