@@ -32,7 +32,7 @@ BuildRequires: dosfstools
 BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev
 BuildRequires: setserial pciutils mt-st reiserfsprogs jfsutils
 BuildRequires: xfsprogs pcmcia-cs gettext ash linuxwacom
-BuildRequires: fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-gurmukhi fonts-ttf-thai fonts-ttf-devanagari
+BuildRequires: fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-lohit fonts-ttf-thai fonts-ttf-devanagari
 BuildRequires: fb2png ntfsprogs ia_ora-gnome brltty
 BuildRequires: lvm2 glibc-i18ndata
 BuildRequires: dmraid mdadm quota
