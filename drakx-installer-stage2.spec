@@ -1,6 +1,6 @@
 %define name drakx-installer-stage2
-%define version 11.80.1
-%define release %mkrel 2
+%define version 11.81
+%define release %mkrel 1
 
 Summary: DrakX installer stage2 image
 Name: %{name}
@@ -13,7 +13,7 @@ Url: http://wiki.mandriva.com/Tools/DrakX
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: squashfs-tools
-BuildRequires: libx11-devel perl-devel libldetect-devel drakx-installer-binaries
+BuildRequires: libx11-devel perl-devel libldetect-devel drakx-installer-binaries parted-devel
 BuildRequires: perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
 BuildRequires: perl-Locale-gettext packdrake
 BuildRequires: drakx-net >= 0.43
