@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 12.3
+%define version 12.4
 %define release %mkrel 1
 
 Summary: DrakX installer stage2 image
@@ -20,8 +20,8 @@ BuildRequires: drakx-net >= 0.43
 BuildRequires: drakx-kbd-mouse-x11 >= 0.69
 BuildRequires: rpm-mandriva-setup >= 1.48
 BuildRequires: perl-MDK-Common >= 1.2.12
-BuildRequires: urpmi >= 6.22.2
-BuildRequires: perl-URPM >= 3.01
+BuildRequires: urpmi >= 6.22.3
+BuildRequires: perl-URPM >= 3.26
 BuildRequires: meta-task
 BuildRequires: ldetect-lst >= 0.1.222
 BuildRequires: draksnapshot
