@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 12.25.1
+%define version 12.26
 %define release %mkrel 1
 
 Summary: DrakX installer stage2 image
@@ -29,7 +29,7 @@ BuildRequires: draksnapshot
 BuildRequires: drakx-installer-matchbox
 BuildRequires: e2fsprogs >= 1.41.3-3mnb
 BuildRequires: dosfstools 
-BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev
+BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev x11-driver-input-vmmouse
 BuildRequires: setserial pciutils mt-st reiserfsprogs jfsutils
 BuildRequires: xfsprogs pcmcia-cs gettext ash linuxwacom
 BuildRequires: fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-lohit fonts-ttf-thai fonts-ttf-devanagari
