@@ -39,6 +39,7 @@ BuildRequires: dmraid mdadm quota
 BuildRequires: losetup xmodmap xset monitor-edid locales
 BuildRequires: perl-Gtk2-WebKit mandriva-doc-installer-help
 BuildRequires: nfs-utils-clients
+BuildRequires: ntfs-3g
 
 %description
 This is the stage2 image for Mandriva DrakX installer.
