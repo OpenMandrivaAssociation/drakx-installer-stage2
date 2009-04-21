@@ -22,6 +22,7 @@ BuildRequires: rpm-mandriva-setup >= 1.48
 BuildRequires: perl-MDK-Common >= 1.2.12
 BuildRequires: urpmi >= 6.25
 BuildRequires: perl-URPM >= 3.26
+BuildRequires: perl_checker
 BuildRequires: meta-task
 BuildRequires: ldetect-lst >= 0.1.260
 BuildRequires: draksnapshot
