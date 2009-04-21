@@ -1,6 +1,6 @@
 %define name drakx-installer-stage2
 %define version 12.30
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: DrakX installer stage2 image
 Name: %{name}
@@ -17,13 +17,13 @@ BuildRequires: libx11-devel perl-devel libldetect-devel drakx-installer-binaries
 BuildRequires: perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
 BuildRequires: perl-Locale-gettext packdrake perl-Clone
 BuildRequires: drakx-net >= 0.73
-BuildRequires: drakx-kbd-mouse-x11 >= 0.69
+BuildRequires: drakx-kbd-mouse-x11 >= 0.73
 BuildRequires: rpm-mandriva-setup >= 1.48
 BuildRequires: perl-MDK-Common >= 1.2.12
 BuildRequires: urpmi >= 6.25
 BuildRequires: perl-URPM >= 3.26
 BuildRequires: meta-task
-BuildRequires: ldetect-lst >= 0.1.222
+BuildRequires: ldetect-lst >= 0.1.260
 BuildRequires: draksnapshot
 # progs
 BuildRequires: drakx-installer-matchbox
