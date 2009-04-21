@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 12.29
+%define version 12.30
 %define release %mkrel 1
 
 Summary: DrakX installer stage2 image
@@ -59,6 +59,10 @@ dest=$RPM_BUILD_ROOT%{_libdir}/%name
 mkdir -p $dest
 make -C perl-install/install install ROOTDEST=$dest
 make -C tools install ROOTDEST=$dest
+
+%check
+cd perl-install
+%make check_perl_checker
 
 %clean
 rm -rf $RPM_BUILD_ROOT
