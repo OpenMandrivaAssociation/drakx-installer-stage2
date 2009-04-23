@@ -1,6 +1,6 @@
 %define name drakx-installer-stage2
 %define version 12.32
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: DrakX installer stage2 image
 Name: %{name}
@@ -24,7 +24,7 @@ BuildRequires: urpmi >= 6.25
 BuildRequires: perl-URPM >= 3.26
 BuildRequires: perl_checker
 BuildRequires: meta-task
-BuildRequires: ldetect-lst >= 0.1.260
+BuildRequires: ldetect-lst >= 0.1.261
 BuildRequires: draksnapshot
 # progs
 BuildRequires: drakx-installer-matchbox
