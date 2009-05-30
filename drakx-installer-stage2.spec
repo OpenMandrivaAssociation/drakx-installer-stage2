@@ -1,6 +1,6 @@
 %define name drakx-installer-stage2
 %define version 12.36
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: DrakX installer stage2 image
 Name: %{name}
@@ -28,7 +28,7 @@ BuildRequires: ldetect-lst >= 0.1.261
 BuildRequires: draksnapshot
 # progs
 BuildRequires: drakx-installer-matchbox
-BuildRequires: e2fsprogs >= 1.41.3-3mnb
+BuildRequires: e2fsprogs >= 1.41.6
 BuildRequires: dosfstools 
 BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev x11-driver-input-vmmouse
 BuildRequires: setserial pciutils mt-st reiserfsprogs jfsutils
