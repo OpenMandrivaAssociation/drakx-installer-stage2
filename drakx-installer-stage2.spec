@@ -15,7 +15,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: squashfs-tools >= 4.0
 BuildRequires: libx11-devel perl-devel libldetect-devel drakx-installer-binaries parted-devel
 BuildRequires: perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
-BuildRequires: pixman >= 0.15.18
+BuildRequires: pixman-devel >= 0.15.18
 BuildRequires: perl-Locale-gettext packdrake perl-Clone
 BuildRequires: drakx-net >= 0.73
 BuildRequires: drakx-kbd-mouse-x11 >= 0.73
