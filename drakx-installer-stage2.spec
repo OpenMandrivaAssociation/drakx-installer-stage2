@@ -1,13 +1,12 @@
 %define name drakx-installer-stage2
 %define version 12.47
-%define release %mkrel 3
+%define release %mkrel 5
 
 Summary: DrakX installer stage2 image
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.lzma
-Patch0:	Encode.patch
 License: GPLv2+
 Group: Development/Other
 Url: http://wiki.mandriva.com/Tools/DrakX
@@ -18,7 +17,7 @@ BuildRequires: libx11-devel perl-devel libldetect-devel drakx-installer-binaries
 BuildRequires: perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
 BuildRequires: pixman-devel >= 0.15.18
 BuildRequires: perl-Locale-gettext packdrake perl-Clone
-BuildRequires: drakx-net >= 0.73
+BuildRequires: drakx-net >= 0.81.1
 BuildRequires: drakx-kbd-mouse-x11 >= 0.73
 BuildRequires: rpm-mandriva-setup >= 1.48
 BuildRequires: perl-MDK-Common >= 1.2.12
@@ -49,7 +48,6 @@ This is the stage2 image for Mandriva DrakX installer.
 
 %prep
 %setup -q
-%patch0 -p0
 
 %build
 make -C tools
