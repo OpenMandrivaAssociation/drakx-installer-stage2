@@ -13,7 +13,7 @@ Url: http://wiki.mandriva.com/Tools/DrakX
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: squashfs-tools >= 4.0
-BuildRequires: libx11-devel perl-devel libldetect-devel drakx-installer-binaries parted-devel
+BuildRequires: libx11-devel perl-devel libldetect-devel >= 0.9.0 drakx-installer-binaries parted-devel
 BuildRequires: perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
 BuildRequires: pixman-devel >= 0.15.18
 BuildRequires: perl-Locale-gettext packdrake perl-Clone
@@ -25,7 +25,7 @@ BuildRequires: urpmi >= 6.27
 BuildRequires: perl-URPM >= 3.26
 BuildRequires: perl_checker
 BuildRequires: meta-task
-BuildRequires: ldetect-lst >= 0.1.267
+BuildRequires: ldetect-lst >= 0.1.272
 BuildRequires: draksnapshot
 # progs
 BuildRequires: drakx-installer-matchbox
