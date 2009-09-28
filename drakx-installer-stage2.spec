@@ -1,6 +1,6 @@
 %define name drakx-installer-stage2
 %define version 12.54
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: DrakX installer stage2 image
 Name: %{name}
@@ -13,7 +13,7 @@ Url: http://wiki.mandriva.com/Tools/DrakX
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: squashfs-tools >= 4.0
-BuildRequires: libx11-devel perl-devel libldetect-devel >= 0.9.0 drakx-installer-binaries parted-devel
+BuildRequires: libx11-devel perl-devel libldetect-devel >= 0.9.1 drakx-installer-binaries parted-devel
 BuildRequires: perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
 BuildRequires: pixman-devel >= 0.15.18
 BuildRequires: perl-Locale-gettext packdrake perl-Clone
