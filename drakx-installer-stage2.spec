@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 12.67
+%define version 12.68
 %define release %mkrel 1
 
 Summary: DrakX installer stage2 image
