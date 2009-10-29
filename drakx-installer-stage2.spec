@@ -1,5 +1,5 @@
 %define name drakx-installer-stage2
-%define version 12.74
+%define version 12.74.1
 %define release %mkrel 1
 
 Summary: DrakX installer stage2 image
@@ -7,7 +7,6 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.lzma
-Patch0:  fix-build.diff
 License: GPLv2+
 Group: Development/Other
 Url: http://wiki.mandriva.com/Tools/DrakX
