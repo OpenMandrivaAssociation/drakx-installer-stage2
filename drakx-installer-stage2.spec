@@ -30,7 +30,7 @@ BuildRequires: draksnapshot
 # progs
 BuildRequires: drakx-installer-matchbox
 BuildRequires: e2fsprogs >= 1.41.6
-BuildRequires: dosfstools 
+BuildRequires: dosfstools mtools
 BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev x11-driver-input-vmmouse
 BuildRequires: setserial pciutils mt-st reiserfsprogs jfsutils
 BuildRequires: xfsprogs pcmcia-cs gettext ash linuxwacom
