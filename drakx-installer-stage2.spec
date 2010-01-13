@@ -1,6 +1,6 @@
 %define name drakx-installer-stage2
 %define version 13.4
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: DrakX installer stage2 image
 Name: %{name}
@@ -20,7 +20,7 @@ BuildRequires: perl-Locale-gettext packdrake perl-Clone
 BuildRequires: drakx-net >= 0.81.1
 BuildRequires: drakx-kbd-mouse-x11 >= 0.83
 BuildRequires: rpm-mandriva-setup >= 1.48
-BuildRequires: perl-MDK-Common >= 1.2.23
+BuildRequires: perl-MDK-Common >= 1.2.24
 BuildRequires: urpmi >= 6.27
 BuildRequires: perl-URPM >= 3.26
 BuildRequires: perl_checker
