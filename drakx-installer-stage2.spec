@@ -7,6 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.lzma
+Source1: lang-ast.png
 License: GPLv2+
 Group: Development/Other
 Url: http://wiki.mandriva.com/Tools/DrakX
@@ -49,6 +50,7 @@ This is the stage2 image for Mandriva DrakX installer.
 
 %prep
 %setup -q
+cp -a %{SOURCE1} perl-install/install/pixmaps/langs/
 %apply_patches
 
 %build
