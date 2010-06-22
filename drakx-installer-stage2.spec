@@ -1,13 +1,12 @@
 %define name drakx-installer-stage2
-%define version 13.33
-%define release %mkrel 2
+%define version 13.35
+%define release %mkrel 1
 
 Summary: DrakX installer stage2 image
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.lzma
-Source1: lang-ast.png
 License: GPLv2+
 Group: Development/Other
 Url: http://wiki.mandriva.com/Tools/DrakX
@@ -51,7 +50,6 @@ This is the stage2 image for Mandriva DrakX installer.
 
 %prep
 %setup -q
-cp -a %{SOURCE1} perl-install/install/pixmaps/langs/
 %apply_patches
 
 %build
