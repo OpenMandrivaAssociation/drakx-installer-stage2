@@ -36,7 +36,7 @@ BuildRequires: task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev x
 BuildRequires: x11-data-xkbdata >= 1.8-2
 BuildRequires: setserial pciutils mt-st reiserfsprogs jfsutils
 BuildRequires: xfsprogs pcmcia-cs gettext ash linuxwacom
-BuildRequires: fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-lohit fonts-ttf-thai fonts-ttf-devanagari
+BuildRequires: fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-lohit fonts-ttf-thai fonts-ttf-devanagari fonts-ttf-wqy-microhei
 BuildRequires: fb2png ntfsprogs ia_ora-gnome brltty
 BuildRequires: lvm2 glibc-i18ndata
 BuildRequires: dmraid mdadm quota
