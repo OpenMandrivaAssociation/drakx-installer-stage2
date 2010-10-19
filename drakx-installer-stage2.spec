@@ -9,6 +9,7 @@ Release: %{release}
 Source0: %{name}-%{version}.tar.lzma
 Patch0:  fix-build-with-new-libx11.diff
 Patch1:  include-more-perl-modules.diff
+Patch2:  fix-build-with-xserver-1.9.diff
 License: GPLv2+
 Group: Development/Other
 Url: http://wiki.mandriva.com/Tools/DrakX
