@@ -6,7 +6,7 @@ Summary: DrakX installer stage2 image
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: %{name}-%{version}.tar.lzma
+Source0: %{name}-%{version}.tar.xz
 License: GPLv2+
 Group: Development/Other
 Url: http://wiki.mandriva.com/Tools/DrakX
