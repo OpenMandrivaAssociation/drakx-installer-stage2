@@ -68,9 +68,9 @@ make -C perl-install/install
 rpm -qa | sort > build-rpms.lst
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
-dest=$RPM_BUILD_ROOT%{_libdir}/%name
+dest=%{buildroot}%{_libdir}/%name
 mkdir -p $dest
 make -C perl-install/install install ROOTDEST=$dest
 make -C tools install ROOTDEST=$dest
@@ -80,7 +80,7 @@ cd perl-install
 %make check_perl_checker
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
