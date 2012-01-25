@@ -13,7 +13,7 @@ Url: http://wiki.mandriva.com/Tools/DrakX
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires: squashfs-tools >= 4.0
-BuildRequires: libx11-devel perl-devel libldetect-devel >= 0.9.1 drakx-installer-binaries parted-devel
+BuildRequires: libx11-devel perl-devel ldetect-devel >= 0.9.1 drakx-installer-binaries parted-devel
 BuildRequires: libgdk_pixbuf2.0
 BuildRequires: perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
 BuildRequires: pixman-devel >= 0.15.18
