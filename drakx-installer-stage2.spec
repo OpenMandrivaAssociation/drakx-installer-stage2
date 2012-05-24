@@ -1,3 +1,6 @@
+%define _enable_debug_packages %{nil}
+%define debug_package          %{nil}
+
 Summary:	DrakX installer stage2 image
 Name:		drakx-installer-stage2
 Version:	13.53
