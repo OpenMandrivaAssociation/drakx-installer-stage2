@@ -8,14 +8,13 @@ Group:		Development/Other
 Url:		http://wiki.mandriva.com/Tools/DrakX
 
 BuildRequires:	squashfs-tools >= 4.0
-BuildRequires:	libx11-devel perl-devel ldetect-devel >= 0.9.1 drakx-installer-binaries parted-devel
-BuildRequires:	libgdk_pixbuf2.0
-BuildRequires:	perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI perl-Term-ReadKey
-BuildRequires:	pixman-devel >= 0.15.18
+BuildRequires:	libx11-devel perl-devel ldetect-devel >= 0.9.1
+BuildRequires:	drakx-installer-binaries parted-devel
+BuildRequires:	libgdk_pixbuf2.0 parted-devel
+BuildRequires:	perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI
+BuildRequires:	perl-Term-ReadKey perl-Net-Ping pixman-devel >= 0.15.18
 BuildRequires:	perl-Locale-gettext packdrake perl-Clone
-BuildRequires:	drakx-net >= 0.81.1
-BuildRequires:	drakx-kbd-mouse-x11 >= 0.83
-BuildRequires:	rpm-mandriva-setup >= 1.48
+BuildRequires:	drakx-net >= 0.81.1 drakx-kbd-mouse-x11 >= 0.83
 BuildRequires:	perl-MDK-Common >= 1.2.25
 BuildRequires:	urpmi >= 6.27
 BuildRequires:	perl-URPM >= 3.26
@@ -27,11 +26,13 @@ BuildRequires:	draksnapshot
 BuildRequires:	drakx-installer-matchbox
 BuildRequires:	e2fsprogs >= 1.41.6
 BuildRequires:	dosfstools mtools
-BuildRequires:	task-x11 libx11-devel libxxf86misc-devel x11-driver-video-fbdev x11-driver-input-vmmouse
+BuildRequires:	task-x11 libx11-devel libxxf86misc-devel
+BuildRequires:	x11-driver-video-fbdev x11-driver-input-vmmouse
 BuildRequires:	x11-data-xkbdata >= 1.8-2
 BuildRequires:	setserial pciutils mt-st reiserfsprogs jfsutils
 BuildRequires:	xfsprogs pcmcia-cs gettext ash linuxwacom
-BuildRequires:	fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-lohit fonts-ttf-thai fonts-ttf-devanagari fonts-ttf-wqy-microhei fonts-ttf-dejavu
+BuildRequires:	fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-lohit
+BuildRequires:	fonts-ttf-thai fonts-ttf-devanagari fonts-ttf-wqy-microhei fonts-ttf-dejavu
 BuildRequires:	fb2png ntfsprogs ia_ora-gnome brltty
 BuildRequires:	lvm2 glibc-i18ndata
 BuildRequires:	dmraid mdadm quota
@@ -40,6 +41,7 @@ BuildRequires:	perl-Gtk2-WebKit mandriva-doc-installer-help
 BuildRequires:	nfs-utils-clients
 BuildRequires:	ntfs-3g
 BuildRequires:	btrfs-progs
+BuildRequires:	nilfs-utils
 BuildRequires:	aria2
 BuildRequires:	parted
 BuildRequires:	cryptsetup
@@ -47,8 +49,6 @@ BuildRequires:	x11-driver-video-vesa
 BuildRequires:	x11-driver-input-keyboard
 BuildRequires:	x11-driver-input-mouse
 BuildRequires:	shared-mime-info
-BuildRequires:	rpm-manbo-setup
-BuildRequires:	nss
 
 %description
 This is the stage2 image for Mandriva DrakX installer.
