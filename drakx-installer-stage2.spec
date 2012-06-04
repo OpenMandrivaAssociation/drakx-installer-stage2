@@ -3,8 +3,8 @@
 
 Summary:	DrakX installer stage2 image
 Name:		drakx-installer-stage2
-Version:	14.22
-Release:	3
+Version:	14.23
+Release:	1
 Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2+
 Group:		Development/Other
