@@ -19,7 +19,7 @@ BuildRequires:	gdk-pixbuf2.0 gtk2-modules parted-devel
 BuildRequires:	perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI
 BuildRequires:	perl-Term-ReadKey perl-Net-Ping pixman-devel >= 0.15.18
 BuildRequires:	perl-Locale-gettext packdrake perl-Clone
-BuildRequires:	drakx-net >= 0.97 drakx-kbd-mouse-x11 >= 0.83
+BuildRequires:	drakx-net >= 0.98 drakx-kbd-mouse-x11 >= 0.83
 BuildRequires:	perl-MDK-Common >= 1.2.25
 BuildRequires:	urpmi >= 6.27
 BuildRequires:	perl-URPM >= 3.26
