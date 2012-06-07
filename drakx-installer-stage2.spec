@@ -1,9 +1,11 @@
 %define _enable_debug_packages %{nil}
-%define debug_package          %{nil}
+%define debug_package %{nil}
+
+%define	family	drakx-installer
 
 Summary:	DrakX installer stage2 image
-Name:		drakx-installer-stage2
-Version:	14.24
+Name:		%{family}-stage2
+Version:	14.25
 Release:	1
 Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2+
@@ -11,7 +13,7 @@ Group:		Development/Other
 Url:		http://wiki.mandriva.com/Tools/DrakX
 
 BuildRequires:	squashfs-tools >= 4.0
-BuildRequires:	libx11-devel perl-devel ldetect-devel >= 0.9.1
+BuildRequires:	perl-devel ldetect-devel >= 0.9.1
 BuildRequires:	drakx-installer-binaries parted-devel
 BuildRequires:	gdk-pixbuf2.0 gtk2-modules parted-devel
 BuildRequires:	perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI
@@ -29,7 +31,7 @@ BuildRequires:	draksnapshot
 BuildRequires:	drakx-installer-matchbox
 BuildRequires:	e2fsprogs >= 1.41.6
 BuildRequires:	dosfstools mtools
-BuildRequires:	task-x11 libx11-devel libxxf86misc-devel
+BuildRequires:	task-x11 pkgconfig(x11) libxxf86misc-devel
 BuildRequires:	x11-driver-video-fbdev x11-driver-input-vmmouse
 BuildRequires:	x11-data-xkbdata >= 1.8-2
 BuildRequires:	setserial pciutils mt-st reiserfsprogs jfsutils
@@ -60,20 +62,22 @@ This is the stage2 image for Mandriva DrakX installer.
 %setup -q
 
 %build
-make -C tools
-make -C perl-install/install
+%make -C tools CFLAGS="%{optflags} -Os" LDFLAGS="%{ldflags}"
+%make -C perl-install/install CFLAGS="%{optflags} -Os" LDFLAGS="%{ldflags}"
 rpm -qa | sort > build-rpms.lst
 
 %install
-dest=%{buildroot}%{_libdir}/%{name}
-mkdir -p $dest
-make -C perl-install/install install ROOTDEST=$dest
-make -C tools install ROOTDEST=$dest
+%makeinstall_std -C perl-install/install
+%makeinstall_std -C tools
 
 %check
-cd perl-install
-%make check_perl_checker
+%make -C perl-install check_perl_checker
 
 %files
 %doc build-rpms.lst
-%{_libdir}/%{name}
+%dir %{_libdir}/%{family}
+%dir %{_libdir}/%{family}/root
+%dir %{_libdir}/%{family}/root/install
+%{_libdir}/%{family}/root/install/*
+%dir %{_libdir}/%{family}/root/misc
+%{_libdir}/%{family}/root/misc/*
