@@ -38,7 +38,7 @@ BuildRequires:	setserial pciutils mt-st reiserfsprogs jfsutils
 BuildRequires:	xfsprogs pcmcia-cs gettext ash linuxwacom
 BuildRequires:	fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-lohit
 BuildRequires:	fonts-ttf-thai fonts-ttf-devanagari fonts-ttf-wqy-microhei fonts-ttf-dejavu
-BuildRequires:	fb2png ntfsprogs ia_ora-gnome brltty
+BuildRequires:	fb2png ntfsprogs ia_ora-gnome brltty >= 4.4-1
 BuildRequires:	lvm2 glibc-i18ndata
 BuildRequires:	dmraid mdadm quota
 BuildRequires:	losetup xmodmap xset monitor-edid locales
@@ -54,7 +54,6 @@ BuildRequires:	x11-driver-video-vesa
 BuildRequires:	x11-driver-input-keyboard
 BuildRequires:	x11-driver-input-mouse
 BuildRequires:	shared-mime-info
-BuildRequires:	brltty
 
 %description
 This is the stage2 image for Mandriva DrakX installer.
