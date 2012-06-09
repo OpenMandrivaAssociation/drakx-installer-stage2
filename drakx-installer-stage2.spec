@@ -6,7 +6,7 @@
 Summary:	DrakX installer stage2 image
 Name:		%{family}-stage2
 Version:	14.27
-Release:	2
+Release:	3
 Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2+
 Group:		Development/Other
@@ -22,7 +22,7 @@ BuildRequires:	perl-Locale-gettext packdrake perl-Clone
 BuildRequires:	drakx-net >= 0.98 drakx-kbd-mouse-x11 >= 0.83
 BuildRequires:	perl-MDK-Common >= 1.2.25 perl-Pango >= 1.223
 BuildRequires:	urpmi >= 6.27
-BuildRequires:	perl-URPM >= 3.26
+BuildRequires:	perl-URPM >= 4.43
 BuildRequires:	perl_checker
 BuildRequires:	meta-task
 BuildRequires:	ldetect-lst >= 0.1.277
