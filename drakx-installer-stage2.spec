@@ -35,7 +35,7 @@ BuildRequires:	task-x11 pkgconfig(x11) libxxf86misc-devel
 BuildRequires:	x11-driver-video-fbdev x11-driver-input-vmmouse
 BuildRequires:	x11-data-xkbdata >= 1.8-2
 BuildRequires:	setserial pciutils mt-st reiserfsprogs jfsutils
-BuildRequires:	xfsprogs pcmcia-cs gettext ash linuxwacom
+BuildRequires:	xfsprogs pcmciautils gettext ash linuxwacom
 BuildRequires:	fonts-ttf-bengali fonts-ttf-bitstream-vera fonts-ttf-lohit
 BuildRequires:	fonts-ttf-thai fonts-ttf-devanagari fonts-ttf-wqy-microhei fonts-ttf-dejavu
 BuildRequires:	fb2png ntfsprogs ia_ora-gnome brltty >= 4.4-1
