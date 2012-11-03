@@ -70,6 +70,7 @@ rpm -qa | sort > build-rpms.lst
 %install
 %makeinstall_std -C perl-install/install
 %makeinstall_std -C tools
+rm -rf %{buildroot}%{_libdir}/%{family}/root/install/stage2/live
 
 %check
 %make -C perl-install check_perl_checker
@@ -79,6 +80,8 @@ rpm -qa | sort > build-rpms.lst
 %dir %{_libdir}/%{family}
 %dir %{_libdir}/%{family}/root
 %dir %{_libdir}/%{family}/root/install
-%{_libdir}/%{family}/root/install/*
+%dir %{_libdir}/%{family}/root/install/stage2
+%{_libdir}/%{family}/root/install/stage2/VERSIONN
+%{_libdir}/%{family}/root/install/stage2/mdkinst.cpio.xz
 %dir %{_libdir}/%{family}/root/misc
 %{_libdir}/%{family}/root/misc/*
