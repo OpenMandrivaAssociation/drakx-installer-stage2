@@ -54,6 +54,7 @@ BuildRequires:	x11-driver-video-vesa
 BuildRequires:	x11-driver-input-keyboard
 BuildRequires:	x11-driver-input-mouse
 BuildRequires:	shared-mime-info
+BuildRequires:	pkgconfig(libtirpc)
 
 %description
 This is the stage2 image for Mandriva DrakX installer.
