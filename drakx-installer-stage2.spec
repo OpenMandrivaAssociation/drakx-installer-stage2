@@ -6,7 +6,7 @@
 Summary:	DrakX installer stage2 image
 Name:		%{family}-stage2
 Version:	14.33
-Release:	1
+Release:	2
 Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2+
 Group:		Development/Other
@@ -31,7 +31,7 @@ BuildRequires:	draksnapshot
 BuildRequires:	drakx-installer-matchbox
 BuildRequires:	e2fsprogs >= 1.41.6
 BuildRequires:	dosfstools mtools
-BuildRequires:	task-x11 pkgconfig(x11) libxxf86misc-devel
+BuildRequires:	pkgconfig(x11) libxxf86misc-devel
 BuildRequires:	x11-driver-video-fbdev x11-driver-input-vmmouse
 BuildRequires:	x11-data-xkbdata >= 1.8-2
 BuildRequires:	setserial pciutils mt-st reiserfsprogs jfsutils
