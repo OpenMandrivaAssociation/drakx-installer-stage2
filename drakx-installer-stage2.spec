@@ -57,6 +57,9 @@ BuildRequires:	shared-mime-info
 BuildRequires:	pkgconfig(libtirpc)
 # workaroiund..
 BuildConflicts: %{name}
+BuildRequires:	xauth iceauth rgb x11-data-cursor-themes xhost x11-font-misc-misc x11-font-cursor-misc 
+BuildRequires:	x11-font-alias setxkbmap x11-server-xorg xinit fonts-ttf-dejavu fonts-ttf-liberation xev
+
 
 %description
 This is the stage2 image for Mandriva DrakX installer.
