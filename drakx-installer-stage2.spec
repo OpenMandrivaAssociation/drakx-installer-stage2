@@ -86,7 +86,7 @@ rm -rf %{buildroot}%{_libdir}/%{family}/root/install/stage2/live
 %dir %{_libdir}/%{family}/root
 %dir %{_libdir}/%{family}/root/install
 %dir %{_libdir}/%{family}/root/install/stage2
-%{_libdir}/%{family}/root/install/stage2/VERSIONN
+%{_libdir}/%{family}/root/install/stage2/VERSION
 %{_libdir}/%{family}/root/install/stage2/mdkinst.cpio.xz
 %dir %{_libdir}/%{family}/root/misc
 %{_libdir}/%{family}/root/misc/*
