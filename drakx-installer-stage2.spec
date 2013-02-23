@@ -55,6 +55,7 @@ BuildRequires:	x11-driver-input-keyboard
 BuildRequires:	x11-driver-input-mouse
 BuildRequires:	shared-mime-info
 BuildRequires:	pkgconfig(libtirpc)
+BuildRequires:	perl(Parse::EDID)
 # workaroiund..
 BuildConflicts: %{name}
 BuildRequires:	xauth iceauth rgb x11-data-cursor-themes xhost x11-font-misc-misc x11-font-cursor-misc 
