@@ -5,8 +5,8 @@
 
 Summary:	DrakX installer stage2 image
 Name:		%{family}-stage2
-Version:	14.33
-Release:	2
+Version:	14.50
+Release:	1
 Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2+
 Group:		Development/Other
@@ -19,7 +19,7 @@ BuildRequires:	gdk-pixbuf2.0 gtk2-modules parted-devel
 BuildRequires:	perl-Gtk2 perl-Glib perl-XML-Parser perl-Curses perl-Curses-UI
 BuildRequires:	perl-Term-ReadKey perl-Net-Ping pixman-devel >= 0.15.18
 BuildRequires:	perl-Locale-gettext packdrake perl-Clone
-BuildRequires:	drakx-net >= 0.98 drakx-kbd-mouse-x11 >= 0.83
+BuildRequires:	drakx-net >= 1.24 drakx-kbd-mouse-x11 >= 0.104
 BuildRequires:	perl-MDK-Common >= 1.2.25 perl-Pango >= 1.223
 BuildRequires:	urpmi >= 6.27
 BuildRequires:	perl-URPM >= 4.43
@@ -60,6 +60,7 @@ BuildRequires:	perl(Parse::EDID)
 BuildConflicts: %{name}
 BuildRequires:	xauth iceauth rgb x11-data-cursor-themes xhost x11-font-misc-misc x11-font-cursor-misc 
 BuildRequires:	x11-font-alias setxkbmap x11-server-xorg xinit fonts-ttf-dejavu fonts-ttf-liberation xev
+BuildRequires:	digger
 
 
 %description
