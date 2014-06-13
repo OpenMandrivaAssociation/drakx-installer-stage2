@@ -74,7 +74,7 @@ BuildRequires:	gettext glibc-i18ndata locales
 BuildRequires:	perl_checker perl-Locale-gettext 
 # for mime.cache:
 BuildRequires:	shared-mime-info
-# braille display for blind people:
+splay for blind people:
 BuildRequires:	brltty
 # for screenshots:
 BuildRequires:	fb2png
@@ -88,6 +88,13 @@ BuildRequires:	digger
 BuildRequires:	gimp gimp-python pngrewrite
 BuildRequires:	gtk3-modules oxygen-gtk3-engine gtk+3.0-common
 BuildRequires:	typelib(GdkX11) = 3.0 #typelib(JavaScriptCore) = 3.0
+BuildRequires:	pkgconfig(libtirpc)
+BuildRequires:	perl(Parse::EDID)
+# workaround..
+BuildConflicts: %{name}
+BuildRequires:	xauth iceauth rgb x11-data-cursor-themes xhost x11-font-misc-misc x11-font-cursor-misc 
+BuildRequires:	x11-font-alias setxkbmap x11-server-xorg xinit fonts-ttf-dejavu fonts-ttf-liberation xev
+BuildRequires:	digger
 
 
 %description
