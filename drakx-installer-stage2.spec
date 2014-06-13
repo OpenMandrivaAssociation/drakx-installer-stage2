@@ -25,8 +25,8 @@ BuildRequires:	x11-data-xkbdata >= 1.8-2
 BuildRequires:	xmodmap xset monitor-edid
 # toolkit
 BuildRequires:	gdk-pixbuf2.0 
-BuildRequires:	perl-Gtk3 >= 0.14.0-8
-BuildRequires:	perl-Gtk3-WebKit
+BuildRequires:	perl(Gtk3) >= 0.14.0-8
+BuildRequires:	perl(Gtk3::WebKit)
 BuildRequires:	adwaita-icon-theme >= 3.13.1
 # for introspection:
 BuildRequires:	%{_lib}atk-gir1.0
@@ -42,6 +42,7 @@ BuildRequires:	drakx-installer-matchbox
 # drivers:
 BuildRequires:	x11-driver-input-keyboard x11-driver-input-mouse
 BuildRequires:	x11-driver-input-vmmouse x11-driver-input-wacom
+BuildRequires:	x11-driver-input-synaptics
 BuildRequires:	x11-driver-video-fbdev x11-driver-video-vesa
 # theme:
 BuildRequires:	adwaita-gtk3-theme
@@ -57,6 +58,7 @@ BuildRequires:	perl(Clone)
 BuildRequires:	perl(MDK::Common) >= 1.2.28
 BuildRequires:	perl(Net::Ping)
 BuildRequires:	perl(XML::Parser) perl(XML::SAX::Base) perl(XML::LibXML)
+BuildRequires	perl(List::MoreUtils)
 # urpmi:
 BuildRequires:	aria2 >= 1.18.1-2 curl
 BuildRequires:	urpmi >= 7.29
@@ -71,8 +73,8 @@ BuildRequires:	fonts-ttf-dejavu fonts-ttf-thai fonts-ttf-devanagari
 BuildRequires:	fonts-ttf-wqy-microhei
 # locales:
 BuildRequires:	gettext glibc-i18ndata locales
-BuildRequires:	perl_checker perl-Locale-gettext 
-# for mime.cache:
+BuildRequires:	perl_checker perl(Locale::gettext)
+# for mime.cache:perl(Locale::gettext)
 BuildRequires:	shared-mime-info
 # display for blind people:
 BuildRequires:	brltty
@@ -82,6 +84,7 @@ BuildRequires:	fb2png
 BuildRequires:	draksnapshot
 # help:
 BuildRequires:	drakx-installer-help
+BuildRequires:	mandriva-doc-installer-help
 
 BuildRequires:	kbd
 BuildRequires:	digger
