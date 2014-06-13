@@ -5,7 +5,7 @@
 
 Summary:	DrakX installer stage2 image
 Name:		%{family}-stage2
-Version:	16.29
+Version:	16.31.1
 Release:	1
 Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2+
