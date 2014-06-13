@@ -58,7 +58,7 @@ BuildRequires:	perl(MDK::Common) >= 1.2.28
 BuildRequires:	perl(Net::Ping)
 BuildRequires:	perl(XML::Parser) perl(XML::SAX::Base) perl(XML::LibXML)
 # urpmi:
-BuildRequires:	aria2 >= 1.18.1-2
+BuildRequires:	aria2 >= 1.18.1-2 curl
 BuildRequires:	urpmi >= 7.29
 # for compssUsers.pl:
 BuildRequires:	meta-task
