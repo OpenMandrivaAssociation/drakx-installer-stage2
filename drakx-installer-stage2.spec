@@ -74,7 +74,7 @@ BuildRequires:	gettext glibc-i18ndata locales
 BuildRequires:	perl_checker perl-Locale-gettext 
 # for mime.cache:
 BuildRequires:	shared-mime-info
-splay for blind people:
+# display for blind people:
 BuildRequires:	brltty
 # for screenshots:
 BuildRequires:	fb2png
