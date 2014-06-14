@@ -89,7 +89,7 @@ BuildRequires:	kbd
 BuildRequires:	digger
 BuildRequires:	gimp gimp-python pngrewrite
 BuildRequires:	gtk3-modules oxygen-gtk3-engine gtk+3.0-common
-BuildRequires:	typelib(GdkX11) = 3.0 #typelib(JavaScriptCore) = 3.0
+BuildRequires:	typelib(GdkX11) = 3.0 typelib(JavaScriptCore) = 3.0
 BuildRequires:	pkgconfig(libtirpc)
 BuildRequires:	perl(Parse::EDID)
 # workaround..
