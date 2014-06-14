@@ -84,7 +84,6 @@ BuildRequires:	fb2png
 BuildRequires:	draksnapshot
 # help:
 BuildRequires:	drakx-installer-help
-BuildRequires:	mandriva-doc-installer-help
 
 BuildRequires:	kbd
 BuildRequires:	digger
