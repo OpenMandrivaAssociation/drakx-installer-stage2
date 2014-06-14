@@ -105,6 +105,10 @@ This is the stage2 image for Mandriva DrakX installer.
 
 %prep
 %setup -q
+# workaround multiple threads consuming all of 32 bit address space
+%ifarch %{ix86}
+find -type f |xargs sed -e 's#xz -T0#xz#g' -i
+%endif
 
 %build
 %make -C tools CFLAGS="%{optflags} -Os" LDFLAGS="%{ldflags}"
