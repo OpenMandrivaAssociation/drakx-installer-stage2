@@ -10,7 +10,7 @@ Release:	1
 Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2+
 Group:		Development/Other
-Url:		http://wiki.mandriva.com/Tools/DrakX
+Url:		https://wiki.mandriva.com/Tools/DrakX
 
 # needed for tracing what files to collect
 BuildRequires:	strace
